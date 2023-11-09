@@ -3,7 +3,6 @@ const stopBtn = document.querySelector('[data-stop]');
 
 let intervalId;
 
-
 startBtn.addEventListener('click', ()=>{
     intervalId = setInterval(()=>{
         const randomColor = getRandomHexColor();
